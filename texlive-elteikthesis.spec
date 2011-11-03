@@ -1,3 +1,9 @@
+# revision 22513
+# category Package
+# catalog-ctan /macros/latex/contrib/elteikthesis
+# catalog-date 2011-05-17 17:52:56 +0200
+# catalog-license lppl1.2
+# catalog-version 1.2
 Name:		texlive-elteikthesis
 Version:	1.2
 Release:	1
@@ -47,6 +53,7 @@ approved by the University.
 #- source
 %doc %{_texmfdistdir}/source/latex/elteikthesis/elteikthesis.dtx
 %doc %{_texmfdistdir}/source/latex/elteikthesis/elteikthesis.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ approved by the University.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
