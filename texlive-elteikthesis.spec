@@ -6,7 +6,7 @@
 # catalog-version 1.2
 Name:		texlive-elteikthesis
 Version:	1.2
-Release:	11
+Release:	12
 Summary:	Thesis class for ELTE University Informatics wing
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/elteikthesis
