@@ -1,5 +1,5 @@
 Name:		texlive-elteikthesis
-Version:	66820
+Version:	71087
 Release:	1
 Summary:	Thesis class for ELTE University Informatics wing
 Group:		Publishing
