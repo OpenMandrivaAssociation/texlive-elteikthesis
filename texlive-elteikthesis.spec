@@ -3,7 +3,7 @@ Version:	71087
 Release:	1
 Summary:	Thesis class for ELTE University Informatics wing
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/elteikthesis
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/elteikthesis
 License:	LPPL1.2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/elteikthesis.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/elteikthesis.doc.r%{version}.tar.xz
